@@ -8,8 +8,7 @@ public class smallestNoInArray{
             }
         }
         return smallest;
-
-    }
+        }
      public static void main(String args[]){
         int numbers[]={5,2,7,6,10};
         System.out.println("smallest number in array is="+smallest(numbers));
