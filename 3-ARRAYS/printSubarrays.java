@@ -12,11 +12,8 @@ public class printSubarrays{
         System.out.println(" ");  
         }
          System.out.println(" ");  
-        } 
-
-
-
-    }
+         }
+          }
     public static void main(String args[]){
         int numbers[]={2,4,6,8,10};
         pairs(numbers);
