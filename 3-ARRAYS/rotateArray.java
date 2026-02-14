@@ -1,7 +1,6 @@
 import java.util.*;
 public class rotateArray{
  public static void rotateArr(int arr[], int d) {
-        // code here
         int n=arr.length;
         d=d%n;
         reverse(arr,0,d-1);
