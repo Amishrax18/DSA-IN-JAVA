@@ -4,7 +4,7 @@ public class countDigits {
         int count=0;
         while(num!=0){
             int digit=num%10;
-            count+s+;
+            count++;
             num=num/10;
         }
         System.out.println(count);
