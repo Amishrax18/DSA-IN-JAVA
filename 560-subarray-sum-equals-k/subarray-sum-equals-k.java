@@ -1,8 +1,9 @@
 class Solution {
     public int subarraySum(int[] nums, int k) {
 
-        int ans = 0;
 
+        int ans = 0;
+            // travel 
         for (int i = 0; i < nums.length; i++) {
 
             int sum = 0;
