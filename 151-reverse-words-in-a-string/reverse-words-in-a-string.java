@@ -24,7 +24,7 @@ class Solution {
             if(j>=0){
                 ans.append(' ');
             }
-            //place i at last index of remaining string
+            //place I at last index of remaining string
             i=j;
         }
         return ans.toString();
