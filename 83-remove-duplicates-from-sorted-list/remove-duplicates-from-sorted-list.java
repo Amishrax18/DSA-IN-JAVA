@@ -14,6 +14,7 @@ class Solution {
             return head;
 
         }
+        //if only one node is prresent
         if(head.next==null){
             return head;
 
