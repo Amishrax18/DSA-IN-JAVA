@@ -14,6 +14,7 @@ class Solution {
         ListNode write=head;
 
         while(read!=null){
+            //jab tk read is not equal to null
             int sum=0;
             while(read.val!=0){
                 sum+=read.val;
